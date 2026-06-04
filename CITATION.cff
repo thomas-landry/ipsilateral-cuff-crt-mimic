@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software (via its archived Zenodo DOI) and the associated preprint."
+title: "ipsilateral-cuff-crt-mimic: analysis code for a feasibility study of capillary-refill-like occlusion signals in MIMIC-IV-WDB"
+type: software
+authors:
+  - family-names: Landry
+    given-names: Thomas C.
+    orcid: "https://orcid.org/0009-0009-1802-9673"
+    affiliation: "Internal Medicine, Legacy Salmon Creek Medical Center, Vancouver, WA, USA"
+  - family-names: Kim
+    given-names: Youjin
+    orcid: "https://orcid.org/0009-0007-0889-4669"
+    affiliation: "Internal Medicine, Legacy Salmon Creek Medical Center, Vancouver, WA, USA"
+license: MIT
+repository-code: "https://github.com/thomas-landry/ipsilateral-cuff-crt-mimic"
+version: 1.0.0
+date-released: "2026-06-07"
+keywords:
+  - MIMIC-IV-WDB
+  - photoplethysmography
+  - pulse oximetry
+  - blood pressure cuff
+  - capillary refill
+  - feasibility study
+  - clinical informatics
+abstract: "Analysis code for a feasibility and prevalence study in the MIMIC-IV Waveform Database (MIMIC-IV-WDB) estimating how often the pulse oximeter probe and the noninvasive blood pressure cuff appear to be on the same limb, so that a routine cuff inflation records a brief occlusion and reperfusion in the photoplethysmography waveform that resembles a capillary refill measurement. Laterality is inferred from waveform morphology and reported as a morphology-based estimate. No patient data are included; users obtain MIMIC-IV-WDB from PhysioNet under its data use agreement."

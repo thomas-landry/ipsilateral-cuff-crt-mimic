@@ -1,0 +1,2 @@
+# sha256: 86b2d50d42bc89985d441d88a94c0e7e82d5eb00d2ebe65a886bd6ff0811bb9e
+Classify this single perfusion-index trace. First state what it actually shows, then decide the category. Answer with the JSON object only.

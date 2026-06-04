@@ -1,0 +1,79 @@
+# .gitattributes for ipsilateral-cuff-crt-mimic (public-bound repo, MIT license).
+# Pairs with .gitignore: that file controls what is tracked; this one controls how
+# tracked files are diffed, merged, normalized, and archived.
+
+# ---- default: treat as text, normalize line endings on commit to LF ----
+* text=auto eol=lf
+
+# ---- source code: text, diffable, normalized ----
+*.py            text diff=python
+*.sh            text eol=lf
+*.toml          text
+*.cfg           text
+*.ini           text
+*.yaml          text
+*.yml           text
+
+# ---- documentation, configuration, manifests: text, diffable ----
+*.md            text diff=markdown
+*.txt           text
+*.rst           text
+*.tex           text diff=tex
+*.bib           text diff=bibtex
+*.json          text
+*.lock          text -diff
+
+# ---- tabular / structured (small enough to track if curated, large ones live under data/) ----
+*.csv           text
+*.tsv           text
+*.sql           text
+
+# ---- binary: never normalize line endings, no diff, no merge ----
+*.pdf           binary
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.svg           binary
+*.ico           binary
+*.parquet       binary
+*.feather       binary
+*.npy           binary
+*.npz           binary
+*.h5            binary
+*.hdf5          binary
+*.zip           binary
+*.tar           binary
+*.tar.gz        binary
+*.tgz           binary
+*.gz            binary
+
+# ---- waveform data formats (PhysioNet) ----
+*.dat           binary
+*.hea           binary
+*.wfdb          binary
+
+# ---- model weights and serialized models (never tracked, defensive) ----
+*.safetensors   binary
+*.gguf          binary
+*.bin           binary
+*.pt            binary
+*.pth           binary
+*.onnx          binary
+*.ckpt          binary
+
+# ---- linguist hints for GitHub language detection ----
+# Mark generated / vendored content so it does not skew the language bar.
+uv.lock                 linguist-generated=true
+manuscript/**           linguist-documentation=true
+prompts/**              linguist-documentation=true
+*.ipynb                 linguist-language=Python
+
+# ---- export-ignore: keep these out of `git archive` and Zenodo tarballs ----
+# (Anything also covered by .gitignore is already excluded; these are the
+# tracked-but-not-shipped items.)
+.gitattributes          export-ignore
+.gitignore              export-ignore
+.github/                export-ignore
+.vscode/                export-ignore
+.idea/                  export-ignore

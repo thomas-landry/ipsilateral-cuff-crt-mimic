@@ -1,0 +1,13 @@
+reader,detector,medgemma,n
+present,present,present,30
+present,present,absent,28
+present,absent,present,25
+present,absent,absent,19
+indeterminate,present,present,25
+indeterminate,present,absent,12
+indeterminate,absent,present,20
+indeterminate,absent,absent,22
+absent,present,present,93
+absent,present,absent,80
+absent,absent,present,82
+absent,absent,absent,132

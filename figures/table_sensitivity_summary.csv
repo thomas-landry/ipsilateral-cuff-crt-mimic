@@ -1,0 +1,4 @@
+analysis,n_cards,setup,result,takeaway
+Determinism (fresh-process re-run),100,"Re-run on a restarted server; greedy decoding (temperature 0, fixed seed). Genuine ~5 s per card decodes, not a cache replay.",100% paired agreement (100/100),Calls reproduce exactly across a restart.
+Prompt sensitivity (3 reworded prompts),100,"Three reworded system prompts on the same gallery images, vs the canonical-prompt reference on those images.","Concordance: compact 66.0%, explicit 69.5%, terse 52.0%. Positive rate: compact 84%, explicit 71%, terse 79% (reference 48% positive over 568).",Calls shift with wording; variants over-call.
+Render sensitivity (prompt + render path),100,"Same three variants on gallery images, vs the independent render-on-the-fly reference (prompt and render path both differ).","Concordance: compact 38.0%, explicit 42.1%, terse 44.0%.",Render path adds a second large source of disagreement.
