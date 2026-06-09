@@ -1,5 +1,8 @@
 # Rule-Based Detection and Multimodal Language-Model Adjudication of Opportunistic Capillary-Refill-Like Signals in ICU Photoplethysmography: A MIMIC-IV-WDB Feasibility Study
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20588048.svg)](https://doi.org/10.5281/zenodo.20588048)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A capillary-refill-like signal can be read from an ICU photoplethysmogram (PPG) only when the
 SpO2 probe and the noninvasive blood-pressure (NIBP) cuff sit on the **same arm**, so that each
 automated cuff inflation acts as an unplanned occlusion-reperfusion event. Standard monitoring
@@ -213,16 +216,16 @@ language-model harness, and figure builders.
 
 ## Citation
 
-If you use this software, please cite it. Fill the placeholders at release:
+If you use this software, please cite it:
 
 ```
 Landry TC, Kim Y. Cuff-occlusion capillary-refill signals in MIMIC-IV-WDB.
-Version <RELEASE_TAG>, commit <RELEASE_COMMIT_HASH>. Zenodo. https://doi.org/<ZENODO_DOI>
+Version v1.0.0, commit 61db1b1868614f324c19ad8ccf4c2f8ea41b719f. Zenodo. https://doi.org/10.5281/zenodo.20588049
 ```
 
-- Repository: `<PLACEHOLDER_REPOSITORY_URL>`
-- Release commit: `<PLACEHOLDER_RELEASE_COMMIT_HASH>`
-- Zenodo DOI: `<PLACEHOLDER_ZENODO_DOI>`
+- Repository: `https://github.com/thomas-landry/ipsilateral-cuff-crt-mimic`
+- Release commit: `61db1b1868614f324c19ad8ccf4c2f8ea41b719f`
+- Zenodo DOI: `10.5281/zenodo.20588049`
 
 ## Authors
 - **Thomas C. Landry, MD** (corresponding). ORCID [0009-0009-1802-9673](https://orcid.org/0009-0009-1802-9673)

@@ -13,6 +13,7 @@ authors:
     affiliation: "Internal Medicine, Legacy Salmon Creek Medical Center, Vancouver, WA, USA"
 license: MIT
 repository-code: "https://github.com/thomas-landry/ipsilateral-cuff-crt-mimic"
+doi: "10.5281/zenodo.20588049"
 version: 1.0.0
 date-released: "2026-06-07"
 keywords:
