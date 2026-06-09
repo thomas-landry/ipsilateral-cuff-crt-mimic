@@ -1,5 +1,6 @@
 # Rule-Based Detection and Multimodal Language-Model Adjudication of Opportunistic Capillary-Refill-Like Signals in ICU Photoplethysmography: A MIMIC-IV-WDB Feasibility Study
 
+[![medRxiv](https://img.shields.io/badge/medRxiv-10.64898%2F2026.06.07.26355129-b31b1b)](https://doi.org/10.64898/2026.06.07.26355129)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20588048.svg)](https://doi.org/10.5281/zenodo.20588048)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -216,7 +217,15 @@ language-model harness, and figure builders.
 
 ## Citation
 
-If you use this software, please cite it:
+If you use this work, please cite the preprint and the archived software. A machine-readable `CITATION.cff` is included, so GitHub shows a "Cite this repository" button.
+
+**Preprint**
+
+```
+Landry TC, Kim Y. Sensor Geometry, Not Signal Processing, Limits Opportunistic Detection of Capillary-Refill-Like Signals by Rule-Based and Language-Model Methods in Archived ICU Waveforms. medRxiv. 2026. doi:10.64898/2026.06.07.26355129.
+```
+
+**Software (this repository, v1.0.0)**
 
 ```
 Landry TC, Kim Y. Cuff-occlusion capillary-refill signals in MIMIC-IV-WDB.

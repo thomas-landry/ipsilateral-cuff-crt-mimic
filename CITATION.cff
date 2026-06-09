@@ -25,3 +25,17 @@ keywords:
   - feasibility study
   - clinical informatics
 abstract: "Analysis code for a feasibility and prevalence study in the MIMIC-IV Waveform Database (MIMIC-IV-WDB) estimating how often the pulse oximeter probe and the noninvasive blood pressure cuff appear to be on the same limb, so that a routine cuff inflation records a brief occlusion and reperfusion in the photoplethysmography waveform that resembles a capillary refill measurement. Laterality is inferred from waveform morphology and reported as a morphology-based estimate. No patient data are included; users obtain MIMIC-IV-WDB from PhysioNet under its data use agreement."
+preferred-citation:
+  type: article
+  title: "Sensor Geometry, Not Signal Processing, Limits Opportunistic Detection of Capillary-Refill-Like Signals by Rule-Based and Language-Model Methods in Archived ICU Waveforms"
+  authors:
+    - family-names: Landry
+      given-names: Thomas C.
+      orcid: "https://orcid.org/0009-0009-1802-9673"
+    - family-names: Kim
+      given-names: Youjin
+      orcid: "https://orcid.org/0009-0007-0889-4669"
+  year: 2026
+  journal: "medRxiv"
+  doi: "10.64898/2026.06.07.26355129"
+  url: "https://doi.org/10.64898/2026.06.07.26355129"
